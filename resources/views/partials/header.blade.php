@@ -5,16 +5,10 @@
         </div>
         <div class="menu">
             <ul>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
-            <li >aaaaaaaaaaaaaaaaaaaaa</li>
+                @foreach ($menuNav as $item)
+                <li >{{$item}}</li>
+                    
+                @endforeach
             </ul>
         </div>
     </nav>
