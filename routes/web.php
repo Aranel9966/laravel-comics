@@ -18,3 +18,8 @@ Route::get('/', function () {
     $menuNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP'];
     return view('home', compact('comics', 'menuNav'));
 });
+Route::get('/prova', function () {
+    // $comics = config('comics');
+    $menuNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP'];
+    return view('pag1', compact('menuNav'));
+});

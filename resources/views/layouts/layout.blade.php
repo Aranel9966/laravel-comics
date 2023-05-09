@@ -18,6 +18,7 @@
     @include('partials\header')
 
     @yield('content')
+    @yield('content2')
     
     @include('partials\footer')
 </body>
